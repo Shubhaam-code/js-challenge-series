@@ -1,0 +1,27 @@
+/* App.css */
+
+#container {
+  height: 100vh;          /* 🔥 MOST IMPORTANT */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+/* Light Mode */
+.light {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode */
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
